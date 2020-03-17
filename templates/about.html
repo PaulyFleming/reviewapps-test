@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+{% set active_page = "about" %}
+{% block content %}
+
+
+
+<section class="page-section about-heading">
+    <div class="container">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0"
+            src="https://galoremag.com/wp-content/uploads/2018/06/What-to-wear-to-meditation-class-galore-cover.jpg"
+            alt="">
+        <div class="about-heading-content">
+            <div class="row">
+                <div class="col-xl-9 col-lg-10 mx-auto">
+                    <div class="bg-faded rounded p-5">
+                        <h2 class="section-heading mb-4">
+                            <span class="section-heading-lower">Meditation Overview</span>
+                        </h2>
+                        <p>Meditation is a practice where an individual uses a technique – such as mindfulness, or
+                            focusing the mind on a particular object,
+                            thought, or activity – to train attention and awareness, and achieve a mentally clear and
+                            emotionally calm and stable state.
+                            Scholars have found meditation difficult to define, as practices vary both between
+                            traditions and within them.</p>
+                        <p class="mb-0">Meditation has been practiced since antiquity in numerous religious traditions,
+                            often as part of the path towards
+                            enlightenment and self realization. Some of the earliest written records of meditation
+                            (Dhyana), come from the Hindu traditions
+                            of Vedantism. Since the 19th century, Asian meditative techniques have spread to other
+                            cultures where they have also found application
+                            in non-spiritual contexts, such as business and health.
+                        </p>
+                        <p class="mb-0">
+                            Meditation may be used with the aim of reducing stress, anxiety, depression, and pain, and
+                            increasing peace, perception, self-concept, and
+                            well-being. Meditation is under research to define its possible health (psychological,
+                            neurological, and cardiovascular) and other effects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <div class="cta-inner text-center rounded">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Techniques We Teach</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% for technique in techniques %}
+<section class="page-section about-heading section-spacing">
+    <div class="container">
+        <div class="about-heading-content">
+            <div class="bg-faded rounded p-5">
+                {% if loop.index % 2 != 0 %}
+                <div class="row">
+
+
+                    <div class="col-xl-7 col-lg-8 col-md-7 mx-auto">
+                        <h2 class="section-heading mb-4">
+                            <a href="/about/{{ technique.url }}"><span class="section-heading-lower">{{ technique.technique }}</span></a>
+                            <span class="section-heading-upper">{{ technique.description }}</span>
+                        </h2>
+                        <p>{{ technique.explanation }}
+                        </p>
+                    </div>
+
+                    <div class="col-xl-5 col-lg-8 col-md-5 mx-auto">
+                        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{{ technique.image_source }}"
+                            alt="">
+                    </div>
+                </div>
+
+                {% else %}
+
+                <div class="row">
+                    <div class="col-xl-5 col-lg-8 col-md-5 mx-auto">
+                        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{{ technique.image_source }}"
+                            alt="">
+                    </div>
+
+                    <div class="col-xl-7 col-lg-8 col-md-7 mx-auto">
+                        <h2 class="section-heading mb-4">
+                            <a href="/about/{{ technique.url }}"><span class="section-heading-lower">{{ technique.technique }}</span></a>
+                            <span class="section-heading-upper">{{ technique.description }}</span>
+                        </h2>
+                        <p>{{ technique.explanation }}
+                        </p>
+                    </div>
+
+
+                </div>
+
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+{% endfor %}
+
+
+{% endblock %}

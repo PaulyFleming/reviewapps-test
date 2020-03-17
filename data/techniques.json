@@ -1,0 +1,37 @@
+[
+    {
+        "technique": "Zazen",
+        "description": "Zen Sitting Meditation",
+        "explanation": "Zazen (literally 'seated meditation'; Japanese: 座禅; simplified Chinese: 坐禅; traditional Chinese: 坐禪; pinyin: zuò chán; Wade–Giles: tso4-ch'an2, pronounced [tswô ʈʂʰǎn]) is a meditative discipline that is typically the primary practice of the Zen Buddhist tradition. The precise meaning and method of zazen varies from school to school, but in general it can be regarded as a means of insight into the nature of existence. In the Japanese Rinzai school, zazen is usually associated with the study of koans. The Sōtō School of Japan, on the other hand, only rarely incorporates koans into zazen, preferring an approach where the mind has no object at all, known as shikantaza.",
+        "image_source": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Kodo_Sawaki_Zazen.jpg",
+        "url": "zazen"
+    },
+    {
+        "technique": "TCM",
+        "description": "Trancendental Meditation",
+        "explanation": "The Transcendental Meditation technique or TM is a form of silent mantra meditation,developed by Maharishi Mahesh Yogi. The meditation practice involves the use of a mantra and is practiced for 20 minutes twice per day while sitting with one's eyes closed. Beginning in 1965, the Transcendental Meditation technique has been incorporated into schools, universities, corporations, and prison programs in the United States, Latin America, Europe, and India. In 1977, a U.S. federal district court ruled that a curriculum in TM and the Science of Creative Intelligence (SCI) being taught in some New Jersey schools was religious in nature and in violation of the First Amendment. However, the technique has since been included in a number of educational and social programs around the world.",
+        "image_source": "http://www.tparents.org/Library/Unification/Publications/Utopia/yogi_m9.gif",
+        "url": "tcm"
+    },
+    {
+        "technique": "Zhan Zhuang",
+        "description": "Taoist Standing Meditation",
+        "explanation": "Zhàn zhuāng, literally: 'standing like a post', is a training method often practiced by students of neijia (internal kung fu), such as Yiquan, Xing Yi Quan, Bagua Zhang and Taiji Quan. Zhan Zhuang is sometimes translated Standing-on-stake, Standing Qigong, Standing Like a Tree, Post-standing, Pile-standing, or Pylon Standing. It is commonly called a form of Qigong, despite the differences from other Qigong methods in Zhan zhuang's orientation.",
+        "image_source": "https://i.pinimg.com/736x/4d/59/4c/4d594c6f0be6e4ce14d0ed18428fc6ff.jpg",
+        "url": "zhan-zhuang"
+    },
+    {
+        "technique": "Metta Meditation",
+        "description": "Loving Kindness Concentration Practice",
+        "explanation": "In metta meditation, we direct lovingkindness toward ourselves and then, in a sequence of expansion, towards somebody we love already. Somebody we are neutral towards. Somebody we have difficulty with. And ultimately toward all beings everywhere without distinction. ",
+        "image_source": "https://68.media.tumblr.com/243e12f22c983f2a17d0154a73180e61/tumblr_nu6jcuCeYP1uz4l3po1_500.jpg",
+        "url": "metta"
+    },
+    {
+        "technique": "Vipassana",
+        "description": "Buddhist Insight Meditation",
+        "explanation": "Vipassana, which means to see things as they really are, is one of India's most ancient techniques of meditation. It was taught in India more than 2500 years ago as a universal remedy for universal ills, i.e., an Art of Living.",
+        "image_source": "http://2.bp.blogspot.com/-RgJCw6Y7Xag/UAVJUDd0DeI/AAAAAAAAACc/2dwAVxYh_Bs/s1600/vipassana.jpg",
+        "url": "vipassana"
+    }
+]

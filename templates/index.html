@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="http://4.bp.blogspot.com/-N3afSGcN9vE/Upofg95A1_I/AAAAAAAAC7Q/hPu2IXY7dyg/s1600/Buddhist+Mditation.jpg" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">Calm Your Spirit</span>
+            <span class="section-heading-lower">Free Your Mind</span>
+          </h2>
+          <p class="mb-3">
+              Our school provides instructions on various differnet meditation techniques. Our classes are open to all, no pre-reqiusites, prior knowledge
+              or past experience is neccesary. Meditation can help everyone to improve some of aspect of their health to achieve a more clear minded, postive,
+              well-balanced you.
+          </p>
+          <div class="intro-button mx-auto">
+            <a class="btn btn-primary btn-xl" href="{{ url_for('about') }}">Visit Us Today!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <div class="cta-inner text-center rounded">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Our Promise</span>
+              <span class="section-heading-lower">To You</span>
+            </h2>
+            <p class="mb-0">
+                We do not promise you that we will help you to reach enlightenment. Only you can do that, what we do promise  is to give you the tools
+                and understanding that you need to get you started on the journey towards enlightenment. "Give a man a fish and he will eat for a day.
+                Teach a man to fish and he will eat for a lifetime."
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
