@@ -1,4 +1,9 @@
 {
+    "env": {
+        "SECRET_TOKEN": {
+          "description": "A secret key for verifying the integrity of signed cookies.",
+          "generator": "secret"
+        },
     "environments": {
         "test": {
             "env": {
@@ -8,6 +13,11 @@
         "review": {
             "env": {
                 "TEST_VAR":"review-test"
+            }
+        },
+        "staging": {
+            "env": {
+                "STAGINGTEST":"stagingvalue"
             }
         },
         "production": {
