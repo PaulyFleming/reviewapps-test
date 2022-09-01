@@ -8,20 +8,18 @@
                 "TEST_VAR":"review-test"
             }
         },
-        "staging": {
-            "env": {
-                "STAGINGTEST":"stagingvalue"
-            }
-        },
-        "production": {
-            "env": {
-                "TEST_VAR2":"tester"
-            }
+        "addons" : [
+        {
+            "plan": "heroku-postgresql:standard-0",
+        "options": {
+            "extensions": "pg_stat_statements, plpgsql, uuid-ossp"
         }
+        } 
+    ]
     },
     "addons" : [
         {
-            "plan": "heroku-postgresql:standard-0",
+            "plan": "heroku-postgresql:standard-2",
         "options": {
             "extensions": "pg_stat_statements, plpgsql, uuid-ossp"
         }
