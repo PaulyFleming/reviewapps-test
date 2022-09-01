@@ -7,8 +7,7 @@
             "env": {
                 "TEST_VAR":"review-test"
             }
-        },
-        "addons" : [
+             "addons" : [
         {
             "plan": "heroku-postgresql:standard-0",
         "options": {
@@ -17,6 +16,8 @@
         } 
     ]
     },
+        },
+       
     "addons" : [
         {
             "plan": "heroku-postgresql:standard-2",
