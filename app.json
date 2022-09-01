@@ -1,0 +1,27 @@
+{
+    "environments": {
+        "test": {
+            "env": {
+                "TEST_VAR":"testenv-test"
+            }
+        },
+        "review": {
+            "env": {
+                "TEST_VAR":"review-test"
+            }
+        },
+        "production": {
+            "env": {
+                "TEST_VAR2":"tester"
+            }
+        }
+    },
+    "addons" : [
+        {
+            "plan": "heroku-postgresql:standard-0",
+        "options": {
+            "extensions": "pg_stat_statements, plpgsql, uuid-ossp"
+        }
+        } 
+    ]
+}
