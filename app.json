@@ -3,11 +3,6 @@
         "SECRET_TOKEN": "prod"
     },
     "environments": {
-        "test": {
-            "env": {
-                "TEST_VAR":"testenv-test"
-            }
-        },
         "review": {
             "env": {
                 "TEST_VAR":"review-test"
