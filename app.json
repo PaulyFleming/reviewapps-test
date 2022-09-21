@@ -1,5 +1,5 @@
 {
-  "addons": ["heroku-postgresql:standard-0"]
+  "addons": ["heroku-postgresql:standard-0"],
   "environments": {
     "review": {
       "addons": [
@@ -12,4 +12,4 @@
     ]
     }
 }
-
+}
