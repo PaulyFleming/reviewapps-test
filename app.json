@@ -6,7 +6,7 @@
     {
     "plan": "heroku-postgresql:hobby-dev",
     "options": {
-        "extensions": "public.uuid-ossp,public.pgcrypto"
+        "extensions": "public.hstore,public.pg_trgm,public.pg_stat_statements,public.uuid-ossp"
 }
 }
     ]
