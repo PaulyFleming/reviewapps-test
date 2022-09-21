@@ -7,7 +7,7 @@
     "plan": "heroku-postgresql:hobby-dev",
     "options": {
         "extensions": "public.uuid-ossp,public.pgcrypto"
-}
+    }
 }
     ]
     }
